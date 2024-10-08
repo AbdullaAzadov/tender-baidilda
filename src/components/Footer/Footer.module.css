@@ -1,0 +1,18 @@
+.footer {
+    background: #302c42;
+    text-align: center;
+    color: #eee;
+    padding: 35px 0 35px;
+    border-top: 1px solid #888;
+}
+
+.phoneNumber {
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+.phoneNumber:hover {
+    color: #614cab;
+}

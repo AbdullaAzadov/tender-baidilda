@@ -19,7 +19,7 @@ export default function Portfolio() {
     }
 
     return (
-        <section className={style.portfolio}>
+        <section className={style.portfolio} id="portfolio">
             <div className="container">
                 <div className="title">
                     <h3>

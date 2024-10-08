@@ -1,0 +1,52 @@
+.pricing {
+    background-color: white;
+    padding: 90px 0 76px;
+}
+
+.cards {
+    display: flex;
+    gap: 0;
+}
+
+.cards :global(.wrapper) {
+    margin: 0 15px;
+    width: 33.333%;
+}
+
+:global(.wrapper) a {
+    margin-top: -24px;
+}
+
+.card {
+    background-color: #f9f8fc;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 35px 0 46px;
+}
+
+.card:global(.best) {
+    background: #614cab;
+}
+
+.card:global(.best) * {
+    color: white;
+}
+
+.card h4 {
+    font-size: 24px;
+}
+
+.card span {
+    font-size: 38px;
+    color: #614cab;
+    display: block;
+    margin: 14px;
+    font-weight: 600;
+}
+
+.card ul li {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #8a8a8a;
+}
