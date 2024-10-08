@@ -13,6 +13,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -59,4 +63,70 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section__title p {
+    color: #614cab;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.section__title h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 0;
+}
+
+.card {
+    flex: 0 0 calc(33% - 2rem);
+    max-height: max-content;
+    margin: 0 1rem;
+    padding: 30px;
+    background: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    transition: 0.5s ease-out;
+}
+
+.card:hover {
+    background: #614cab;
+}
+
+.card:hover > * {
+    color: white;
+}
+
+.card i {
+    font-size: 56px;
+    color: #614cab;
+    min-width: 56px;
+    max-width: 56px;
+    min-height: 56px;
+    max-height: 56px;
+}
+
+.card h5 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 0;
+    line-height: 26px;
+    color: #8a8a8a;
+    font-weight: 400;
+    width: 105%;
 }

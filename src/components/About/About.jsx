@@ -6,7 +6,7 @@ export default function About() {
     return (
         <section className={style.about} id="about">
             <div className="container">
-                <div className={style.title}>
+                <div className="section__title">
                     <p>О Курсе</p>
                     <h3>Наша Цель</h3>
                     <h3>сделать обучение доступным</h3>
