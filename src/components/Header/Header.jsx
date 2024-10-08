@@ -23,7 +23,7 @@ export default function Header() {
                 </div>
                 <nav>
                     <a href="#home">Главная</a>
-                    <a href="#about">О нас</a>
+                    <a href="#about">О Нас</a>
                     <a href="#services">Наши преимущества</a>
                     <a href="#portfolio">Скрины</a>
                     <a href="#pricing">Цены</a>
