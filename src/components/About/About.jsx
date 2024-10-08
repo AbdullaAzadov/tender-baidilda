@@ -13,7 +13,7 @@ export default function About() {
                 </div>
                 <ul className="cards">
                     <li className="card">
-                        <i>12</i>
+                        <i className="lni lni-bulb"></i>
                         <h5>Понятно, Да?</h5>
                         <p>
                             Курсы созданы на пошаговой инструкцие и практике, мы
@@ -21,7 +21,7 @@ export default function About() {
                         </p>
                     </li>
                     <li className="card">
-                        <i>12</i>
+                        <i className="lni lni-sun"></i>
                         <h5>Смарт Решения</h5>
                         <p>
                             Наши курсы полны разных фишек, которые сделают жизнь
@@ -29,7 +29,7 @@ export default function About() {
                         </p>
                     </li>
                     <li className="card">
-                        <i>12</i>
+                        <i className="lni lni-comments"></i>
                         <h5>Бесплатная Тех-поддержка</h5>
                         <p>
                             Если у вас возникнут вопросы, можете позвонить нам в

@@ -6,32 +6,32 @@ import { TrialLessonLink } from "../../utils/links";
 const advList = [
     {
         title: "Удобный формат",
-        icon: null,
+        icon: "lni lni-timer",
         body: "Онлайн видеоуроки можно смотреть в удобное для вас время, и в любой точке земного шара.",
     },
     {
         title: "Полное сопровождение",
-        icon: null,
+        icon: "lni lni-handshake",
         body: "Мы будем сопровождать вас по любым вопросам, возникшим во время обучения.",
     },
     {
         title: "Пошаговая Инструкция",
-        icon: null,
+        icon: "lni lni-keyword-research",
         body: "Наши уроки пошагово объясняют и учат всему что вам нужно для старта в тендерах.",
     },
     {
         title: "Документы",
-        icon: null,
+        icon: "lni lni-paperclip",
         body: "В курс входит вся нужная документация, все призентации и шаблоны документов.",
     },
     {
         title: "Удобная цена",
-        icon: null,
+        icon: "lni lni-offer",
         body: "Данная нами цена самое малое что вы можете дать за такой сервис и за очень важную информацию.",
     },
     {
         title: "Много Крутых Фишек",
-        icon: null,
+        icon: "lni lni-bulb",
         body: "Оба курса полны разных фишек, как сэкономить, как выиграть или как быстро привезти товар.",
     },
 ];
@@ -48,7 +48,7 @@ export default function Advantages() {
                 <ul className="cards">
                     {advList.map((item, i) => (
                         <li className="card" key={i}>
-                            <i>12</i>
+                            <i className={item.icon}></i>
                             <h5>{item.title}</h5>
                             <p>{item.body}</p>
                         </li>
