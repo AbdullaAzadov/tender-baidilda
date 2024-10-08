@@ -1,0 +1,58 @@
+.about {
+    padding: 90px 0 100px;
+    background-color: #f4f4f6;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title p {
+    color: #614cab;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.title h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.about :global(.cards) {
+    display: flex;
+}
+
+.about :global(.card) {
+    flex: 1;
+    max-height: max-content;
+    margin: 0 1rem;
+    padding: 30px;
+    background: #fff;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.about :global(.card) i {
+    font-size: 56px;
+    color: #614cab;
+    min-width: 56px;
+    max-width: 56px;
+    min-height: 56px;
+    max-height: 56px;
+}
+
+.about :global(.card) h5 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.about :global(.card) p {
+    margin: 0;
+    line-height: 26px;
+    color: #8a8a8a;
+    font-weight: 400;
+    width: 105%;
+}
