@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import style from "./Header.module.css";
 
 export default function Header() {
-    const [showHeaderBg, setShowHeaderBg] = useState(false);
+    const [showHeaderBg, setShowHeaderBg] = useState(window.pageYOffset > 80);
 
     useEffect(() => {
         function scroll() {
