@@ -1,0 +1,42 @@
+.header {
+    padding: 0.5rem 1rem;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    transition: 0.5s ease-out;
+}
+
+.header:global(.header-bg) {
+    background-color: white;
+}
+.header:global(.header-bg) nav a {
+    color: #333;
+}
+
+.header :global(.container) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoWrapper {
+    margin-right: 1rem;
+    padding: 5px 0;
+    width: max-content;
+}
+
+.header nav a {
+    margin: 0;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+    transition: 0.5s ease-out;
+}
+
+.header nav a:last-child {
+    padding-right: 0;
+}
